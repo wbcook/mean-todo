@@ -1,5 +1,4 @@
-{
-	"todos": [{
+[{
 		"name": "pick up frozen pizza"
 	}, {
 		"name": "watch twitch stream"
@@ -9,5 +8,4 @@
 		"name": "sleep in"
 	}, {
 		"name": "play overwatch until 3 am"
-	}]
-}
+}]
