@@ -1,3 +1,3 @@
 ***Running (Dev)***
-* `npm install - nodemon`
+* `npm install -g nodemon`
 * `nodemon`
