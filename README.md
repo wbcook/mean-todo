@@ -1,3 +1,7 @@
+***Installation***
+* `npm install`
+
 ***Running (Dev)***
-* `npm install -g nodemon`
+* `node_modules/.bin/webpack --watch`
 * `nodemon`
+* `mongod`
