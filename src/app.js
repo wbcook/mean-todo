@@ -1,7 +1,7 @@
 'use strict';
 
 var express = require('express');
-
+var parser = require('body-parser');
 var app = express();
 
 require('./database');
@@ -10,6 +10,7 @@ require('./seed');
 var router = require('./api');
 
 app.use('/', express.static('public'));
+app.use(parser.json());
 
 app.use('/api', router);
 
